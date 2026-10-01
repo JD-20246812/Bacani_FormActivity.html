@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacani-HTML Form Activity</title>
+<div style="text-align: center;">
+</head>
+<body>
+    <form action="#" method="Post">
+        
+        <legend>Personal Information</legend><br>
+
+
+        <fieldset>
+        <legend>Complete Full Name:</legend>
+        <label for="firname">First Name:</label><br>
+        <input type="text" id="firname" name="firname"><br>
+        <label for="midname">Middle Name:</label><br>
+        <input type="text" id="midname" name="midname"><br>
+        <label for="lastname">Family Name:</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
+        </fieldset><br>
+    
+        <fieldset>
+            <legend>Gender</legend>
+
+        <input type="radio" id="male" name="Gender" value="MALE"> 
+        <label for="male">Male</label> <br>
+        <input type="radio" id="female" name="Gender" value="FEMALE">
+        <label for="female">Female</label> <br>
+        <input type="radio" id="other" name="Gender" value="OTHER">
+        <label for="other">Other</label> <br>
+        <input type="radio" id="prefernotosay" name="Gender" value="PREFERNOTOSAY">
+        <label for="prefernotosay">Prefer not to say</label> <br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Hobbies</legend>
+
+            <input type="checkbox" id="mountainclimbing" name="Hobbies" value="MOUNTAINCLIMBING"> 
+            <label for="mountainclimbing">Mountain Climbing</label> <br>
+            <input type="checkbox" id="rucking" name="Hobbies" value="RUCKING"> 
+            <label for="rucking">Rucking</label> <br>
+            <input type="checkbox" id="hunting" name="Hobbies" value="HUNTING"> 
+            <label for="hunting">Hunting</label> <br>
+
+        </fieldset>
+
+        <p><label for="user-comments">Comments:</label><br>
+            <textarea id="user-comments" name="user-comments" row="40" cols="40" placeholder="type your comments here"></textarea><br>
+        </p>
+        <p><button type="submit">Submit Form</button></p>
+    </form>
+    </div>
+
+
+</body>
+</html>
